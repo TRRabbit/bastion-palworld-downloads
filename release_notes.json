@@ -1,0 +1,38 @@
+{
+  "articles": {
+    "launcher": [
+      {
+        "version": "1.0.0",
+        "date": "2026-07-13",
+        "en": "First public release of the Bastion Palworld launcher: store with Polar checkout, signed downloads and updates, product supervision.",
+        "fr": "Première version publique du launcher Bastion Palworld : boutique avec paiement Polar, téléchargements et mises à jour signés, supervision des produits."
+      },
+      {
+        "version": "1.0.1",
+        "date": "2026-07-13",
+        "en": "Store enabled by default (Polar checkout + license key unlock). Windows installer with a clean install folder.",
+        "fr": "Boutique activée par défaut (paiement Polar + déblocage par clé de licence). Installeur Windows avec un dossier d'installation propre."
+      },
+      {
+        "version": "1.0.2",
+        "date": "2026-07-13",
+        "en": "Major polish release.\n- Reliable startup: readable startup log, smart single-instance lock (a second launch brings the existing window to front), no more ghost processes.\n- English by default; French available in Settings, applied instantly.\n- New Home page (About + support Discord) and a separate My Products tab.\n- Store product pages: full description, feature list, documentation links and release notes.\n- Launcher version always visible; release notes update automatically.\n- Palworld color identity across the whole app; embedded fonts (no network needed for the interface).\n- Embedded payment component (no external CDN): fixes the connection issue on the Buy button.",
+        "fr": "Version de finition majeure.\n- Démarrage fiable : journal de démarrage lisible, verrou intelligent (un second lancement ramène la fenêtre existante), plus aucun processus fantôme.\n- Anglais par défaut ; français disponible dans les Réglages, appliqué immédiatement.\n- Nouvel Accueil (À propos + Discord de support) et onglet Mes produits séparé.\n- Fiches produit dans la boutique : description complète, points forts, liens de documentation et notes de version.\n- Version du launcher toujours visible ; notes de version mises à jour automatiquement.\n- Identité couleur Palworld sur tout le logiciel ; polices embarquées (aucun réseau requis pour l'interface).\n- Composant de paiement embarqué (sans CDN externe) : corrige le problème de connexion du bouton Acheter."
+      }
+    ],
+    "palbot": [
+      {
+        "version": "1.0.0",
+        "date": "2026-07-13",
+        "en": "First release of Sentinel Palworld: live server status, player sessions, leaderboards from real save data, account linking, battle pass, tickets and reminders — read-only on your server.",
+        "fr": "Première version de Sentinel Palworld : état du serveur en direct, sessions des joueurs, classements depuis les vraies sauvegardes, liaison de comptes, battle pass, tickets et rappels — en lecture seule sur votre serveur."
+      },
+      {
+        "version": "1.0.1",
+        "date": "2026-07-13",
+        "en": "English by default (French available as a setting). Fully translated configuration panel with the Palworld color theme. Paid license properly declared in the module manifest.",
+        "fr": "Anglais par défaut (français disponible par réglage). Panneau de configuration entièrement traduit, au thème couleur Palworld. Licence payante correctement déclarée dans la carte d'identité du module."
+      }
+    ]
+  }
+}
