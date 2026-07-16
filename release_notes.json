@@ -24,6 +24,12 @@
         "date": "2026-07-14",
         "en": "Safer updates and cleanup.\n- A module update that needs a newer launcher is no longer offered by mistake — you are told to update the launcher first.\n- Product folders that can't be loaded are now shown instead of silently ignored.\n- The hourly update check now runs reliably in the background.\n- Removed an unused internal auto-update path (leaner, cleaner build).",
         "fr": "Mises à jour plus sûres et nettoyage.\n- Une mise à jour de module qui exige un launcher plus récent n'est plus proposée par erreur — on vous invite d'abord à mettre le launcher à jour.\n- Les dossiers de produit illisibles sont désormais affichés au lieu d'être ignorés en silence.\n- La vérification horaire des mises à jour tourne enfin de façon fiable en arrière-plan.\n- Suppression d'une mécanique interne de mise à jour automatique inutilisée (build plus léger et plus propre)."
+      },
+      {
+        "version": "1.0.4",
+        "date": "2026-07-16",
+        "en": "Updates you can see: a real progress bar (download %, install, restart) and module actions locked while an update runs. New 'Check for updates' button - no more restarting the launcher to see a new version. Honest update messages. Relaunching right after closing no longer shows a false 'already running' warning. Smoother interface.",
+        "fr": "Des mises à jour visibles : vraie barre de progression (téléchargement %, installation, redémarrage) et actions du module verrouillées pendant une mise à jour. Nouveau bouton « Vérifier les mises à jour » — plus besoin de redémarrer le launcher pour voir une nouvelle version. Messages de mise à jour honnêtes. Relancer juste après la fermeture n'affiche plus de faux avertissement « déjà lancé ». Interface plus fluide."
       }
     ],
     "palbot": [
@@ -62,6 +68,12 @@
         "date": "2026-07-16",
         "en": "Big visual and configuration update.\n- Leaderboard reinvented: two picture tables (players and tribes), updated in place. Tribes can have their OWN scoring, or simply follow the player scoring.\n- Battle pass: /battlepass now shows your level with a progress bar, your rank, your earned rewards and the next one (free/VIP tracks). The bot can also post an info picture in a channel of your choice, built from your exact configuration (rewards by level and how to earn XP).\n- Account linking: the panel tab now configures everything (channel, button look, message) and the bot posts and maintains the linking panel automatically at startup.\n- Bot logs get their own tab; clearer settings everywhere (anomaly alert sensitivity, per-button defaults, disabled modules are dimmed); leaderboard file reading fixed on Palworld 1.0 saves; many fixes.",
         "fr": "Grosse mise à jour visuelle et de configuration.\n- Classement réinventé : deux tableaux en image (joueurs et tribus), mis à jour sur place. Les tribus peuvent avoir leur PROPRE barème, ou simplement suivre celui des joueurs.\n- Battle pass : /battlepass montre désormais votre niveau avec une barre de progression, votre rang, vos récompenses obtenues et la prochaine (pistes gratuite/VIP). Le bot peut aussi publier une image d'information dans le salon de votre choix, construite depuis votre configuration exacte (récompenses par niveau et façons de gagner de l'XP).\n- Liaison de comptes : l'onglet du panneau configure enfin tout (salon, apparence du bouton, message) et le bot publie et met à jour le panneau de liaison automatiquement au démarrage.\n- Les journaux du bot ont leur propre onglet ; réglages plus clairs partout (sensibilité des alertes, défauts par bouton, modules désactivés estompés) ; lecture des sauvegardes Palworld 1.0 corrigée pour le classement ; nombreuses corrections."
+      },
+      {
+        "version": "1.0.6",
+        "date": "2026-07-16",
+        "en": "Faster, cleaner bot restarts. Account linking is now a simple form: copy your user ID in game, click Link, paste - done (plus an admin unlink command). Recurring messages get a guided builder with readable schedules (hourly/daily/weekly/monthly, local time) and optional guarded server commands. Leaderboard: separate Players and Guilds tabs, each with its own channel. Simpler battle pass setup (pickers and forms). Tickets open in a category, and the ticket panel posts itself. Customisable server status look.",
+        "fr": "Redémarrages du bot plus rapides et plus propres. La liaison de compte devient un simple formulaire : copie ton identifiant utilisateur en jeu, clique sur Lier, colle — c'est fait (plus une commande admin de déliaison). Les messages récurrents ont un créateur guidé avec des fréquences lisibles (heure/jour/semaine/mois, heure locale) et des commandes serveur optionnelles sous garde. Classement : onglets Joueurs et Guildes séparés, chacun son salon. Réglage du battle pass simplifié (sélecteurs et formulaires). Les tickets s'ouvrent dans une catégorie et le panneau se publie tout seul. Apparence du statut serveur personnalisable."
       }
     ]
   }
