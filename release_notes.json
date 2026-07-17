@@ -92,6 +92,12 @@
         "date": "2026-07-17",
         "en": "Battle pass, season edition. Level-up announcements: pick a channel and the bot celebrates every level gained (player, new level, unlocked reward) with a fully customisable message. Season presets: save your rewards, tiers and level curve under a name and switch seasons in one click — the New Season button can restart on any preset. Optional automatic seasons: set a length in days and an order of presets, and the bot resets, applies the next preset and announces it on its own (with a heads-up the day before). Every ID field now says 'ID' in its label.",
         "fr": "Battle pass, édition saisons. Annonces de passage de niveau : choisissez un salon et le bot fête chaque niveau gagné (joueur, nouveau niveau, récompense débloquée) avec un message entièrement personnalisable. Presets de saison : enregistrez vos récompenses, paliers et courbe de niveaux sous un nom et changez de saison en un clic — le bouton Nouvelle saison peut repartir sur n'importe quel preset. Saisons automatiques (option) : réglez une durée en jours et un ordre de presets, et le bot remet à zéro, applique le preset suivant et l'annonce tout seul (avec un avertissement la veille). Tous les champs d'identifiant disent désormais « ID » dans leur libellé."
+      },
+      {
+        "version": "1.0.8",
+        "date": "2026-07-17",
+        "en": "Season presets, safety edition. Every preset now shows what it contains (rewards, tiers, levels) in the list AND in the load confirmation — an empty preset is clearly flagged. A timestamped backup of the whole configuration is written before any preset load, season reset or automatic rotation (last 10 kept, config.backup-*.json): overwritten content is always recoverable. If the backup cannot be written, nothing is replaced. How to edit a saved preset is now explained right in the panel.",
+        "fr": "Presets de saison, édition sécurité. Chaque preset affiche désormais son contenu (récompenses, paliers, niveaux) dans la liste ET dans la confirmation de chargement — un preset vide est clairement signalé. Une copie de secours horodatée de toute la configuration est écrite avant chaque chargement de preset, reset de saison ou rotation automatique (les 10 dernières sont gardées, config.backup-*.json) : un contenu écrasé reste toujours récupérable. Si la copie ne peut pas s'écrire, rien n'est remplacé. La façon de modifier un preset enregistré est expliquée directement dans le panneau."
       }
     ]
   }
