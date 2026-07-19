@@ -128,6 +128,12 @@
         "date": "2026-07-18",
         "en": "Server commands are now free text. Reward and reminder commands are sent to the server exactly as you type them (any PalDefender command works) — the old allowed-verbs list that could block saving a season is gone. Commands turn on by themselves as soon as the applied season contains one.",
         "fr": "Les commandes serveur deviennent un champ libre. Les commandes des récompenses et des rappels partent au serveur exactement comme tu les tapes (toute commande PalDefender fonctionne) — l'ancienne liste de « verbes autorisés » qui pouvait bloquer la sauvegarde d'une saison a disparu. Les commandes s'activent toutes seules dès que la saison appliquée en contient une."
+      },
+      {
+        "version": "1.0.14",
+        "date": "2026-07-19",
+        "en": "Battle pass: progress now counts before players link their Discord.\n- Players who have not linked their Discord yet still make progress. Everything they earn is stored per character and handed over in full the day they link, with the level-up announcement that goes with it. Nothing is granted twice.\n- Field bosses are now counted. They were ignored entirely; they get their own XP setting, separate from tower bosses, so nobody is paid for their past history in one go.\n- The arena setting is now labelled for what it really is: arena RANKING POINTS, not wins (the game does not record arena wins in the save file).\n- Environment deaths written as \"died due to ...\" by PalDefender are recognised again (roughly one death in six was missed).\nYour settings are untouched by this update.",
+        "fr": "Battle pass : la progression compte desormais avant meme la liaison Discord.\n- Un joueur qui n'a pas encore lie son Discord progresse quand meme. Tout ce qu'il gagne est mis de cote sur son personnage et lui est verse d'un coup le jour de la liaison, avec l'annonce de niveau qui va avec. Rien n'est donne deux fois.\n- Les boss de terrain sont enfin comptes. Ils etaient purement ignores ; ils ont leur propre reglage d'XP, separe des boss de tour, pour que personne ne soit paye d'un coup pour tout son historique.\n- Le reglage d'arene porte enfin son vrai nom : ce sont des POINTS DE CLASSEMENT d'arene, pas des victoires (le jeu n'enregistre pas les victoires d'arene dans la sauvegarde).\n- Les morts d'environnement ecrites \"died due to ...\" par PalDefender sont de nouveau reconnues (environ une mort sur six etait perdue).\nTes reglages ne sont pas touches par cette mise a jour."
       }
     ]
   }
