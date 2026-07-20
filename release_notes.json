@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "1.0.7",
+        "date": "2026-07-20",
+        "fr": "Bastion ORP entre en boutique, et les notes de version redeviennent lisibles.\n- Nouveau produit dans la boutique : Bastion ORP, la protection anti-raid hors ligne pour serveurs Palworld. Sa fiche s'ouvre depuis la boutique ; le prix arrive bientôt.\n- Le panneau de chaque produit suit désormais la langue de l'application : en français, tout est en français. Jusqu'ici l'application pouvait être en français et le panneau du produit rester entièrement en anglais.\n- Les notes de version que vous lisez en ce moment tenaient dans une colonne étroite au lieu d'occuper la largeur : c'est corrigé, sur l'accueil comme sur les fiches produit.\n- Le launcher prévient quand il tourne depuis une copie décompressée : dans ce cas une mise à jour s'installe ailleurs, et l'ancien dossier reste en place. Il vous le dit avant, plutôt que de vous laisser avec deux copies.",
+        "en": "Bastion ORP joins the store, and release notes are readable again.\n- New product in the store: Bastion ORP, offline raid protection for Palworld servers. Its page opens from the store; pricing is coming soon.\n- Each product panel now follows the application language: in French, everything is in French. Until now the app could be in French while the product panel stayed entirely in English.\n- The release notes you are reading were squeezed into a narrow column instead of using the full width: fixed, on the home screen and on product pages.\n- The launcher now warns you when it runs from an unzipped copy: an update would install elsewhere and leave the old folder behind. It tells you up front instead of leaving you with two copies."
+      },
+      {
         "version": "1.0.0",
         "date": "2026-07-13",
         "en": "First public release of the Bastion Palworld launcher: store with Polar checkout, signed downloads and updates, product supervision.",
