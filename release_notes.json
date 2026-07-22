@@ -2,55 +2,13 @@
   "articles": {
     "launcher": [
       {
-        "version": "1.0.7",
-        "date": "2026-07-20",
-        "fr": "Bastion ORP entre en boutique, et les notes de version redeviennent lisibles.\n- Nouveau produit dans la boutique : Bastion ORP, la protection anti-raid hors ligne pour serveurs Palworld. Sa fiche s'ouvre depuis la boutique ; le prix arrive bientôt.\n- Le panneau de chaque produit suit désormais la langue de l'application : en français, tout est en français. Jusqu'ici l'application pouvait être en français et le panneau du produit rester entièrement en anglais.\n- Les notes de version que vous lisez en ce moment tenaient dans une colonne étroite au lieu d'occuper la largeur : c'est corrigé, sur l'accueil comme sur les fiches produit.\n- Le launcher prévient quand il tourne depuis une copie décompressée : dans ce cas une mise à jour s'installe ailleurs, et l'ancien dossier reste en place. Il vous le dit avant, plutôt que de vous laisser avec deux copies.",
-        "en": "Bastion ORP joins the store, and release notes are readable again.\n- New product in the store: Bastion ORP, offline raid protection for Palworld servers. Its page opens from the store; pricing is coming soon.\n- Each product panel now follows the application language: in French, everything is in French. Until now the app could be in French while the product panel stayed entirely in English.\n- The release notes you are reading were squeezed into a narrow column instead of using the full width: fixed, on the home screen and on product pages.\n- The launcher now warns you when it runs from an unzipped copy: an update would install elsewhere and leave the old folder behind. It tells you up front instead of leaving you with two copies."
-      },
-      {
         "version": "1.0.0",
-        "date": "2026-07-13",
-        "en": "First public release of the Bastion Palworld launcher: store with Polar checkout, signed downloads and updates, product supervision.",
-        "fr": "Première version publique du launcher Bastion Palworld : boutique avec paiement Polar, téléchargements et mises à jour signés, supervision des produits."
-      },
-      {
-        "version": "1.0.1",
-        "date": "2026-07-13",
-        "en": "Store enabled by default (Polar checkout + license key unlock). Windows installer with a clean install folder.",
-        "fr": "Boutique activée par défaut (paiement Polar + déblocage par clé de licence). Installeur Windows avec un dossier d'installation propre."
-      },
-      {
-        "version": "1.0.2",
-        "date": "2026-07-13",
-        "en": "Major polish release.\n- Reliable startup: readable startup log, smart single-instance lock (a second launch brings the existing window to front), no more ghost processes.\n- English by default; French available in Settings, applied instantly.\n- New Home page (About + support Discord) and a separate My Products tab.\n- Store product pages: full description, feature list, documentation links and release notes.\n- Launcher version always visible; release notes update automatically.\n- Palworld color identity across the whole app; embedded fonts (no network needed for the interface).\n- Embedded payment component (no external CDN): fixes the connection issue on the Buy button.",
-        "fr": "Version de finition majeure.\n- Démarrage fiable : journal de démarrage lisible, verrou intelligent (un second lancement ramène la fenêtre existante), plus aucun processus fantôme.\n- Anglais par défaut ; français disponible dans les Réglages, appliqué immédiatement.\n- Nouvel Accueil (À propos + Discord de support) et onglet Mes produits séparé.\n- Fiches produit dans la boutique : description complète, points forts, liens de documentation et notes de version.\n- Version du launcher toujours visible ; notes de version mises à jour automatiquement.\n- Identité couleur Palworld sur tout le logiciel ; polices embarquées (aucun réseau requis pour l'interface).\n- Composant de paiement embarqué (sans CDN externe) : corrige le problème de connexion du bouton Acheter."
-      },
-      {
-        "version": "1.0.3",
-        "date": "2026-07-14",
-        "en": "Safer updates and cleanup.\n- A module update that needs a newer launcher is no longer offered by mistake — you are told to update the launcher first.\n- Product folders that can't be loaded are now shown instead of silently ignored.\n- The hourly update check now runs reliably in the background.\n- Removed an unused internal auto-update path (leaner, cleaner build).",
-        "fr": "Mises à jour plus sûres et nettoyage.\n- Une mise à jour de module qui exige un launcher plus récent n'est plus proposée par erreur — on vous invite d'abord à mettre le launcher à jour.\n- Les dossiers de produit illisibles sont désormais affichés au lieu d'être ignorés en silence.\n- La vérification horaire des mises à jour tourne enfin de façon fiable en arrière-plan.\n- Suppression d'une mécanique interne de mise à jour automatique inutilisée (build plus léger et plus propre)."
-      },
-      {
-        "version": "1.0.4",
-        "date": "2026-07-16",
-        "en": "Updates you can see: a real progress bar (download %, install, restart) and module actions locked while an update runs. New 'Check for updates' button - no more restarting the launcher to see a new version. Honest update messages. Relaunching right after closing no longer shows a false 'already running' warning. Smoother interface.",
-        "fr": "Des mises à jour visibles : vraie barre de progression (téléchargement %, installation, redémarrage) et actions du module verrouillées pendant une mise à jour. Nouveau bouton « Vérifier les mises à jour » — plus besoin de redémarrer le launcher pour voir une nouvelle version. Messages de mise à jour honnêtes. Relancer juste après la fermeture n'affiche plus de faux avertissement « déjà lancé ». Interface plus fluide."
-      },
-      {
-        "version": "1.0.5",
-        "date": "2026-07-16",
-        "en": "The launcher now updates itself: it checks for new versions at startup, every hour and via the 'Check for updates' button. One click downloads the verified installer, opens it and closes the launcher - your settings are kept. Cleaner reinstalls: the old runtime is fully replaced.",
-        "fr": "Le launcher se met désormais à jour tout seul : il vérifie les nouvelles versions au démarrage, toutes les heures et via le bouton « Vérifier les mises à jour ». Un clic télécharge l'installeur vérifié, l'ouvre et ferme le launcher — vos réglages sont conservés. Réinstallations plus propres : l'ancien moteur est entièrement remplacé."
-      },
-      {
-        "version": "1.0.6",
-        "date": "2026-07-17",
-        "en": "Clearer module screen when the engine is stopped: a Start button and an honest message replace the confusing Stop button and the 'panel not responding' dead end. Your settings are kept — the panel simply needs the engine running. No start/stop actions are offered while an update is in progress.",
-        "fr": "Écran du module plus clair quand le moteur est arrêté : un bouton Démarrer et un message honnête remplacent le bouton Stop trompeur et l'impasse « panneau injoignable ». Vos réglages sont conservés — le panneau a simplement besoin que le moteur tourne. Aucune action démarrer/arrêter n'est proposée pendant une mise à jour."
+        "date": "2026-07-21",
+        "en": "First release of the Bastion Service launcher: one launcher for the whole Bastion range, across games.\n- The store is now organized by game (Palworld, ARK) and by product type (bots, server plugins), so you always know what a product is and which game it serves.\n- Upcoming products are shown greyed out with a clear \"Coming soon\" badge: you can see what is on the way without any false promise.\n- Everything proven in the previous launcher is carried over: signed downloads and updates, product supervision, license handling, English and French interface.",
+        "fr": "Première version du launcher Bastion Service : un seul launcher pour toute la gamme Bastion, tous jeux confondus.\n- La boutique est désormais organisée par jeu (Palworld, ARK) puis par type de produit (bots, plugins serveur) : vous savez toujours ce qu'est un produit et à quel jeu il s'adresse.\n- Les produits à venir sont affichés grisés avec une étiquette « Bientôt disponible » claire : vous voyez ce qui arrive, sans fausse promesse.\n- Tout ce qui a fait ses preuves dans le launcher précédent est conservé : téléchargements et mises à jour signés, supervision des produits, gestion des licences, interface en français et en anglais."
       }
     ],
-    "palbot": [
+    "guardian_palworld": [
       {
         "version": "1.0.0",
         "date": "2026-07-13",
