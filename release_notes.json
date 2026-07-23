@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "1.0.1",
+        "date": "2026-07-23",
+        "en": "The store now shows what each product is for, at a glance.\n- Every product tile carries a backdrop of the game it was built for, so you know in one look whether it serves your server.\n- Tiles also show how many people are using each product right now.\n- Guardian ARK and Bastion ORP show their real price instead of « coming soon »: both have been on sale for a while.\n- The support Discord is open: the button is on the home screen.",
+        "fr": "La boutique montre désormais, d'un coup d'œil, à quoi sert chaque produit.\n- Chaque vignette porte en arrière-plan une image du jeu auquel le produit est destiné : vous voyez immédiatement s'il concerne votre serveur, sans avoir à lire le détail.\n- Les vignettes indiquent également combien de personnes utilisent ce produit en ce moment — un repère utile avant de se décider.\n- Guardian ARK et Bastion ORP affichent enfin leur véritable prix : ils étaient présentés comme « bientôt disponibles » alors qu'ils étaient déjà en vente.\n- Le Discord d'entraide est ouvert : le bouton se trouve sur l'écran d'accueil."
+      },
+      {
         "version": "1.0.0",
         "date": "2026-07-23",
         "en": "Bastion Service 1.0.0 — the launcher starts a clean version line: one launcher for the whole Bastion range, across games.\n- The store is organized by game (Palworld, ARK) and by product type (Discord bots, server plugins), so you always know what a product is and which game it serves.\n- Buy, unlock, install and update a product without ever leaving the window. Downloads and updates are signed from end to end.\n- Your settings live in the folder you chose at installation, next to the product they belong to. An update never touches them, and a copy is saved beforehand every single time.\n- Each product has a maintenance screen: back up its settings, restore an earlier copy, or remove it cleanly.\n- A database assistant finds your MySQL/MariaDB server, checks your details and writes the setup commands for you.\n- English and French, with English as the default.",
