@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "1.0.2",
+        "date": "2026-07-24",
+        "en": "The user count on each product now refreshes on its own.\n- Bastion re-reads the published figure every 24 hours, on top of each launch.\n- If there is no internet connection, it simply tries again later, without ever showing a stale or wrong number.",
+        "fr": "Le nombre d'utilisateurs affiché sur chaque produit se rafraîchit désormais tout seul.\n- Bastion relit le chiffre publié toutes les 24 heures, en plus de chaque ouverture.\n- S'il n'y a pas de connexion internet, il réessaie simplement plus tard, sans jamais montrer un chiffre périmé ni erroné."
+      },
+      {
         "version": "1.0.1",
         "date": "2026-07-23",
         "en": "The store now shows what each product is for, at a glance.\n- Every product tile carries a backdrop of the game it was built for, so you know in one look whether it serves your server.\n- Tiles also show how many people are using each product right now.\n- Guardian ARK and Bastion ORP show their real price instead of « coming soon »: both have been on sale for a while.\n- The support Discord is open: the button is on the home screen.",
