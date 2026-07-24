@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "1.0.3",
+        "date": "2026-07-24",
+        "en": "Two fixes to the app itself.\n- The installer now always lets you choose the installation folder, even when a previous version is already installed.\n- The payment window now has a close button, so you can leave the licence page without having to close and reopen the app.",
+        "fr": "Deux corrections de l'application.\n- Le programme d'installation vous laisse désormais toujours choisir le dossier d'installation, même si une version est déjà installée.\n- La fenêtre de paiement a maintenant un bouton pour la fermer : plus besoin de fermer et rouvrir l'application pour quitter la page des licences."
+      },
+      {
         "version": "1.0.2",
         "date": "2026-07-24",
         "en": "The user count on each product now refreshes on its own.\n- Bastion re-reads the published figure every 24 hours, on top of each launch.\n- If there is no internet connection, it simply tries again later, without ever showing a stale or wrong number.",
