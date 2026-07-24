@@ -1,0 +1,16 @@
+{
+  "produits": {
+    "guardian_palworld": {
+      "utilisateurs": 1
+    },
+    "bastionorp": {
+      "utilisateurs": 0
+    },
+    "guardian_ark": {
+      "utilisateurs": 0
+    }
+  },
+  "mis_a_jour": "2026-07-24T03:23:45+00:00",
+  "complet": true,
+  "signature": "sJSlN1rs6J0qBAZqPHQNUqjloSAijwv3gFTCePHEAolE7/qu15KaD3+yfOWFJc0oQ2qZA1bjCCZz2Iw/zexUDQ=="
+}
